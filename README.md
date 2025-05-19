@@ -1,4 +1,3 @@
-# CARLA-Based-RADAR-Perception-by-Applying-ROS2-Bridge#
 # CARLA Installation and Configuration
 # To set up CARLA, execute the following commands:
 mkdir ~/carla && cd ~/carla
@@ -20,6 +19,6 @@ source install/setup.bash
 #  Connect ROS2 to CARLA
 launch the ros2 bridge
  ros2 launch carla_ros_bridge carla_ros_bridge.launch.py
- ## Usage 
+ ## Run Ros node
  Run the Ros2 node:
  ros2 run radar_perception radar_perception
